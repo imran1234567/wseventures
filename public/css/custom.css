@@ -1,0 +1,276 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  
+  
+  .custom-footer{
+    background: #f5883a !important;
+    color: #212529 !important;
+  
+  }
+  
+  .footer-txt{
+    color: #212529 !important;
+    font-weight: bold;
+  }
+  
+  .logo{
+      padding: 13px;
+      height: 85px;
+      width: 60px;
+      background: #fff;
+  }
+  
+  .logo-img{
+    height:auto;
+    width: 100%;
+  }
+  
+  .logo-footer{
+    padding: 15px;
+    background: #fff;
+  }
+  
+  .nav-link{
+    color: #212529 !important;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 15px;
+  
+  }
+  
+  .nav-link:hover{
+    color:#f5883b !important;
+  }
+  
+  #showcase h1{
+    font-size:50px;
+    margin-bottom:20px;
+  }
+  
+  #showcase img{
+    width:90%;
+    margin-left:60px;
+  }
+  
+  #showcase .showcase-right{
+    margin-top:90px;
+  }
+  
+  
+  #testimonial{
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  section#showcase {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  
+  #testimonial p{
+    font-size:32px;
+    font-family: 'Josefin Sans';
+    color:#000;
+  }
+  
+  #testimonial p.customer{
+    font-size:20px;
+    color:#666;
+  }
+  
+  #info1 .info-right{
+    margin-top:90px;
+  }
+  
+  #info2{
+    margin:20px 0 60px 0;
+  }
+  
+  #info1{
+    margin-top: 15px;
+  }
+  
+  
+  main {
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .info1 .new {
+    font-size: 1em;
+    line-height: 1.75em;
+    border-top: 3px solid;
+    -o-border-image: linear-gradient(to right, #f5883b 0%, #f5883b 100%);
+       border-image: linear-gradient(to right, #f5883b 0%, #f5883b 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    margin: 0;
+    padding: 40px;
+    counter-increment: section;
+    position: relative;
+    color: #2d2b6a;
+  }
+  .info1 .new:before {
+    content: counter(section);
+      position: absolute;
+      border-radius: 50%;
+      padding: 15px;
+      height: 2.25em;
+      width: 2.25em;
+      background-color: #2d2b6a;
+      text-align: center;
+      line-height: 0.6em;
+      color: #ffffff;
+      font-size: 1em;
+  }
+  
+  .info1 .new:nth-child(odd) {
+    border-right: 3px solid;
+    padding-left: 0;
+  }
+  .info1 .new:nth-child(odd):before {
+      left: 100%;
+      margin-left: -15px;
+  }
+  
+  .info1 .new:nth-child(even) {
+    border-left: 3px solid;
+    padding-right: 0;
+  }
+  .info1 .new:nth-child(even):before {
+    right: 100%;
+    margin-right: -20px;
+  }
+  
+  .info1 .new:first-child {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  
+  .info1 .new:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .custom-btn{
+    border-radius: 24px;
+      height: auto;
+      width: 27%;
+      background:#f5883b;
+      border: none;
+      color: #fff;
+  
+  }
+  
+  .custom-btn:hover{
+      background:#2d2b6a;
+  }
+  
+  
+  .info1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .bg-new{
+      background: #f1f1f1;
+      padding: 31px;
+      border-radius: 15px;
+      margin-top:30px;
+  }
+  
+  .new-img{
+    padding: 10%;
+  }
+  
+  .head-text{
+    color: #f5883b;
+  }
+  
+  .banner-image{
+    margin-top:7em;
+    margin-bottom: 7em;
+  }
+  
+  .custom-header{
+    opacity: 0.9;
+  }
+  
+  .banner-image1{
+    text-align: justify;
+  }
+  
+  .img-responsive{
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-image h2{
+    font-size: 5em;
+    color: #f5883a;
+  
+  }
+  
+  .banner-image span{
+    font-size: 50px;
+    color: #4c4c80;
+  }
+  
+  .animation{
+    width: 100%;
+    height: auto;
+  }
+  .animation {
+    width: 100%;
+    height: auto;
+    animation: slide 3s ease-in-out infinite alternate;
+    background: linear-gradient(-24deg, #f5883a 16%, #fff 50%);
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  
+  .animation:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url(/Images/wave-bottom.svg);
+    background-repeat:no-repeat; 
+    height: 268px;
+    left: 0;
+  }
+  
+  
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
