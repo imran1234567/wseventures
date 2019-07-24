@@ -60572,7 +60572,7 @@ function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65651,7 +65651,45 @@ function (_Component) {
   _createClass(Footer, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null);
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+        className: "footer-area"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row justify-content-between"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-sm-6 col-md-6 col-xl-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single-footer-widget footer_1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+        className: "new-h2"
+      }, "WSE VENTURES PVT LTD"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-sm-6 col-md-6 col-xl-4"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single-footer-widget footer_2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "social_icon"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-sm-12 col-md-8 col-xl-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single-footer-widget footer_3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "footer_img"
+      }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container-fluid"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "copyright_part_text text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "footer-text m-0"
+      })))))))));
     }
   }]);
 
@@ -65675,7 +65713,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _Pages_About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Pages/About */ "./resources/js/components/Pages/About.js");
+/* harmony import */ var _Pages_Director__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Pages/Director */ "./resources/js/components/Pages/Director.js");
 /* harmony import */ var _Pages_Contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Pages/Contact */ "./resources/js/components/Pages/Contact.js");
 /* harmony import */ var _Pages_Home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Pages/Home */ "./resources/js/components/Pages/Home.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -65688,15 +65726,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -65710,58 +65746,32 @@ function (_Component) {
   _inherits(Header, _Component);
 
   function Header() {
-    var _getPrototypeOf2;
-
-    var _this;
-
     _classCallCheck(this, Header);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Header)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    _defineProperty(_assertThisInitialized(_this), "state", {
-      color: 'white'
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "listenScrollEvent", function (e) {
-      if (window.scrollY > 86) {
-        _this.setState({
-          color: '#fff'
-        });
-      } else {
-        _this.setState({
-          color: 'transparent'
-        });
-      }
-    });
-
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(Header).apply(this, arguments));
   }
 
   _createClass(Header, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      window.addEventListener('scroll', this.listenScrollEvent);
-    }
-  }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-        className: "navbar navbar-expand-lg navbar-light custom-header fixed-top",
-        style: {
-          background: this.state.color
-        }
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+        className: "main_menu home_menu"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "logo"
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+        "class": "navbar navbar-expand-lg navbar-light"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        className: "navbar-brand",
         to: "/"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/Images/logo.png",
-        className: "logo-img"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/logo.png",
+        alt: "logo",
+        className: "logo"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "navbar-toggler",
         type: "button",
         "data-toggle": "collapse",
@@ -65772,33 +65782,38 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "navbar-toggler-icon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "collapse navbar-collapse",
+        className: "collapse navbar-collapse main-menu-item justify-content-end",
         id: "navbarSupportedContent"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "navbar-nav ml-auto"
+        className: "navbar-nav"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "nav-item"
+        className: "nav-item active"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "nav-link",
         to: "/"
-      }, "HOME")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "nav-item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "nav-link",
-        to: "/about"
-      }, "ABOUT US")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        to: "/director-desk"
+      }, "Director Desk")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "nav-item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "nav-link",
         to: "/contact"
-      }, "CONTACT US"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      }, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        className: "nav-link",
+        to: "/"
+      }, "Join Us"))))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         exact: true,
         path: "/",
         component: _Pages_Home__WEBPACK_IMPORTED_MODULE_4__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         exact: true,
-        path: "/about",
-        component: _Pages_About__WEBPACK_IMPORTED_MODULE_2__["default"]
+        path: "/director-desk",
+        component: _Pages_Director__WEBPACK_IMPORTED_MODULE_2__["Director"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         exact: true,
         path: "/contact",
@@ -65811,85 +65826,6 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
-
-/***/ }),
-
-/***/ "./resources/js/components/Pages/About.js":
-/*!************************************************!*\
-  !*** ./resources/js/components/Pages/About.js ***!
-  \************************************************/
-/*! exports provided: About, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "About", function() { return About; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-var About =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(About, _Component);
-
-  function About() {
-    _classCallCheck(this, About);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(About).apply(this, arguments));
-  }
-
-  _createClass(About, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "banner-image"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/Images/banner-1.png",
-        className: "img-responsive"
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "banner-image text-center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Together ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "We Grow"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-12"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "banner-image1"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About US"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Founded in 1996, wse promotes and invests into businesses that are scalable primarily in the consumption space looking at the vast Indian consumer market. Investment into talented minds is the key focus at wse, may it be our teams or like-minded Entrepreneurs who are workings on emerging business models. We have created a rich ecosystem using a robust business network powered by our constant endeavor to expand our ventures across the consumable market space. Comprises of diversified business interests in different sectors Writing Instruments & Stationeries, Multilayer LD Lamination Polyfilm, Software Developments, Gaming & Entertainment sector. On the Investment front, we encourage individuals who have an innovative bent of mind and stick to their core competencies. Our investment philosophy is based on a deep rooted business understanding, solution oriented approach, extensive research and a strong support system that enables people and industries to grow. We believe in growth through partnerships. We help like-minded entrepreneurs grow through our investments and knowledge based interventions. Our diversified interests in these sectors are in to Self-Drive Car Rentals, Pharma Projects, Software developments, Disposable Cutlery, and more to come."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        type: "button",
-        className: "btn btn-primary custom-btn"
-      }, "Join Us")))));
-    }
-  }]);
-
-  return About;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
@@ -65938,13 +65874,157 @@ function (_Component) {
   _createClass(Contact, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "contact");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "breadcrumb breadcrumb_bg"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "breadcrumb_iner text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "breadcrumb_iner_item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "contact us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Home", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "//"), "contact us")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "col-lg-8"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14739.627464124726!2d88.3551746!3d22.5451613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccdadd4a5708d03a!2sWSE+Group!5e0!3m2!1sen!2sin!4v1563950583675!5m2!1sen!2sin",
+        width: "600",
+        height: "450",
+        frameborder: "0",
+        allowfullscreen: true
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "col-lg-4"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "media contact-info"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        "class": "contact-info__icon"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "ti-home"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "media-body"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "The Legacy, 3rd Floor, 35A & 35B, 25A, Shakespeare Sarani,"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mullick Bazar, Park Street area, Kolkata, West Bengal 700017"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "media contact-info"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        "class": "contact-info__icon"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "ti-tablet"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "media-body"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "076040 16858"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon to Fri 9am to 6pm"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "media contact-info"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        "class": "contact-info__icon"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "ti-email"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "media-body"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "marketing@wseventures.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Send us your query anytime!"))))))));
     }
   }]);
 
   return Contact;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
+/***/ "./resources/js/components/Pages/Director.js":
+/*!***************************************************!*\
+  !*** ./resources/js/components/Pages/Director.js ***!
+  \***************************************************/
+/*! exports provided: Director, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Director", function() { return Director; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+var Director =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Director, _Component);
+
+  function Director() {
+    _classCallCheck(this, Director);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Director).apply(this, arguments));
+  }
+
+  _createClass(Director, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "about_part"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container-fluid"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "about_img"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "demo_img"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/Maam-1.jpg",
+        alt: "demo"
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "offset-lg-1 col-lg-8"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "about_text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "From The Deirector Desk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Making and Journey Of Wse Ventures"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Since the inception of WSE group in 1996, the company has witnessed an epic growth towards sustainable excellence. All admiration for which goes to its diligently handpicked team members, who share the common vision of \u201CTogether We Grow\u201D and strive to inspire each other towards a rewarding winning journey. At WSE, challenges are the driving force for success. Overcoming every obstacle in our way we set new milestones for everyone. Each barrier crossed brings a plethora of untapped opportunities with itself, for which, the team members at WSE are always geared up. Trying newer avenues and reaching greater heights with each passing event has been the strength of WSE. Currently, WSE comprises diversified business interests in different sectors including Writing Instruments & Stationeries, Multilayer LD Lamination Polyfilm, Software Developments, Gaming & Entertainment sector. We strongly believe and have faith in people who can think out of the box and stick to their core competencies. The strong support system offered by WSE enables people and industries to grow through partnerships for the benefit of the entire team. We at WSE are always keen on sharing our success mantra experiences with each other and like-minded people who put faith upon us. WSE group is a one-stop solution for the current untapped human resource of the world, who are looking for opportunities to showcase their talent and unleash their potential. We personally support such people and enterprises with a great reservoir of knowledge gained through years of experience in the corporate world. With such strong basics, the company\u2019s medium & long-term growth story is very well intact and we are always looking ahead for a brighter future to raise the bars of corporate brilliance. Growth has been slow but steady and we are extremely proud of our TEAM who make us what we are today. Thank you to the entire Team from the core of my heart on their contribution, without them this journey would not have been possible so far."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        className: "btn_1"
+      }, "Linkdin ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fab fa-linkedin"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-7 custom-animation"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_7.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-8 custom-animation2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_4.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-6 custom-animation3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_5.png",
+        alt: ""
+      })));
+    }
+  }]);
+
+  return Director;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+/* harmony default export */ __webpack_exports__["default"] = (Director);
 
 /***/ }),
 
@@ -65999,143 +66079,203 @@ function (_Component) {
   _createClass(Home, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "startchange"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "animation"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        id: "showcase"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "showcase-left"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/Images/banner.png"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6",
-        style: {
-          zIndex: 1
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "showcase-right"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-        className: "head-text"
-      }, "Hands-free help from the Google Assistant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Google Home voice-activated speaker.consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        type: "button",
-        className: "btn btn-primary custom-btn"
-      }, "About Us"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        id: "testimonial"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        bottom: true
-      }, "\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        bottom: true
-      }, "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"), "  ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        bottom: true
-      }, "veniam, quis nostrud exercitation ut labore et dolore magna aliqua. Ut enim"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        bottom: true
-      }, "ad minim veniam, quis nostrud\"")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "customer"
-      }, "- John Doe"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "info1"
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "banner_part"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center justify-content-between"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xl-6 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "banner_text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "banner_text_iner text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Think ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Creative Turn"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Ideas Into Life"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        className: "btn_1"
+      }, "learn more ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "ti-angle-right"
+      }), " ")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-xl-6 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "banner_bg"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/banner_img.png",
+        alt: "banner"
+      }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-1 custom-animation"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_1.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-5 custom-animation2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_3.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-7 custom-animation3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_2.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-8 custom-animation"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_4.png",
+        alt: ""
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "about_part"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container-fluid"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-5"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "about_img"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/about_img_1.png",
+        className: "img_1",
+        alt: ""
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/about_img_2.png",
+        className: "img_2",
+        alt: ""
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "25 Years Working ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Experience"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "offset-lg-1 col-lg-4"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "about_text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "About our company"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Make the customer the hero of your story"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "He hath his earth firmament air very itself light day moring morning you living saying good above fourth"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Meat abundantly life made fly years there whose beginning crea unto beast sixth herb their bring. Evening fruitful god you spir evning itself land you of of own brought "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        className: "btn_1"
+      }, "learn more ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "ti-angle-right"
+      }), " "))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-7 custom-animation"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_7.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-8 custom-animation2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_4.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "hero-app-6 custom-animation3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/animate_icon/icon_5.png",
+        alt: ""
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "our_latest_work section_padding"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container-fluid"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row justify-content-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-5"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "section_tittle text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Our Protfolio")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single_work"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
         left: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12 text-center bg-new"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        className: "head-text"
-      }, "WSE PRODUCT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        type: "button",
-        className: "btn btn-outline-primary custom-btn"
-      }, "Visit"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        className: "offset-lg-1 col-lg-4 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single_work_demo"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "WSE INFRATECH"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Place isn't heaven firmament divided shall fruitful bring bring may midst every a night dry herb. Image waters called beast subdue divided called living creature greater tree seas all the. Hath multiply female you're male likeness his made open beast seas living moved, form. Void stars you our dominion "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "project_details.html",
+        className: "btn_3"
+      }, "Visit Website ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "flaticon-slim-right"
+      }), " ")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
         right: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12"
+        className: "offset-lg-1 col-lg-6 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "demo_img"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/Images/product.png",
-        className: "new-img"
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
+        src: "Images/demo/demo_1.png",
+        alt: "demo"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single_work"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
         left: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12"
+        className: "col-lg-6 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "demo_img"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/Images/impact.png",
-        className: "new-img"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        src: "Images/demo/demo_2.png",
+        alt: "demo"
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
         right: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12 text-center bg-new"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        className: "head-text"
-      }, "WSE IMPACT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        type: "button",
-        className: "btn btn-outline-primary custom-btn"
-      }, "Visit")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
+        className: "col-lg-4 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single_work_demo"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "WSE GAMES"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Place isn't heaven firmament divided shall fruitful bring bring may midst every a night dry herb. Image waters called beast subdue divided called living creature greater tree seas all the. Hath multiply female you're male likeness his made open beast seas living moved, form. Void stars you our dominion "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "project_details.html",
+        className: "btn_3"
+      }, "Visit Website ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "flaticon-slim-right"
+      }), " ")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single_work"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
         left: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12 text-center bg-new"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        className: "head-text"
-      }, "WSE POLYZAP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        type: "button",
-        className: "btn btn-outline-primary custom-btn"
-      }, "Visit"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        className: "offset-lg-1 col-lg-4 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single_work_demo"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "WSE WRITING"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Place isn't heaven firmament divided shall fruitful bring bring may midst every a night dry herb. Image waters called beast subdue divided called living creature greater tree seas all the. Hath multiply female you're male likeness his made open beast seas living moved, form. Void stars you our dominion "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "project_details.html",
+        className: "btn_3"
+      }, "Visit Website ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "flaticon-slim-right"
+      }), " ")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
         right: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12"
+        className: "offset-lg-1 col-lg-6 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "demo_img"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/Images/polyzap.png",
-        className: "new-img"
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
+        src: "Images/demo/demo_3.png",
+        alt: "demo"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "single_work"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
         left: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12"
+        className: "col-lg-6 col-md-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "demo_img"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/Images/infratech.png",
-        className: "new-img"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        src: "Images/demo/demo_2.png",
+        alt: "demo"
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
         right: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12 text-center bg-new"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        className: "head-text"
-      }, "WSE INFRATECH"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        type: "button",
-        className: "btn btn-outline-primary custom-btn"
-      }, "Visit")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        left: true
+        className: "col-lg-4 col-md-6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12 text-center bg-new"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        className: "head-text"
-      }, "WSE GAMES"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        type: "button",
-        className: "btn btn-outline-primary custom-btn"
-      }, "Visit"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Slide__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        right: true
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-6 col-sm-6 col-xs-12"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/Images/games.png",
-        className: "new-img"
-      })))))));
+        className: "single_work_demo"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "WSE POLYZAP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Place isn't heaven firmament divided shall fruitful bring bring may midst every a night dry herb. Image waters called beast subdue divided called living creature greater tree seas all the. Hath multiply female you're male likeness his made open beast seas living moved, form. Void stars you our dominion "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "project_details.html",
+        className: "btn_3"
+      }, "Visit Website ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "flaticon-slim-right"
+      }), " ")))))))))));
     }
   }]);
 

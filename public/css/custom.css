@@ -47,6 +47,11 @@ body{
     width: 100%;
   }
   
+
+  .new-h2{
+    color: #fff;
+  }
+  
   .logo-footer{
     padding: 15px;
     background: #fff;
@@ -250,7 +255,7 @@ body{
     width: 100%;
     height: auto;
     animation: slide 3s ease-in-out infinite alternate;
-    background: linear-gradient(-24deg, #f5883a 16%, #fff 50%);
+    background: linear-gradient(-11deg, #f5883a 16%, #fff 50%);
     position: relative;
     padding-bottom: 15px;
   }
@@ -263,11 +268,13 @@ body{
     width: 100%;
     background-image: url(/Images/wave-bottom.svg);
     background-repeat:no-repeat; 
-    height: 268px;
+    height: 274px;
     left: 0;
   }
   
-  
+  .l-0{
+    float: right;
+  }
   
   @keyframes App-logo-spin {
     from { transform: rotate(0deg); }
