@@ -60572,7 +60572,7 @@ function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65763,7 +65763,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-lg-12"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-        "class": "navbar navbar-expand-lg navbar-light"
+        className: "navbar navbar-expand-lg navbar-light"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "navbar-brand",
         to: "/"
@@ -65889,9 +65889,9 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "contact us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Home", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "//"), "contact us")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "row"
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "col-lg-8"
+        className: "col-lg-8"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
         src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14739.627464124726!2d88.3551746!3d22.5451613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccdadd4a5708d03a!2sWSE+Group!5e0!3m2!1sen!2sin!4v1563950583675!5m2!1sen!2sin",
         width: "600",
@@ -65899,31 +65899,31 @@ function (_Component) {
         frameborder: "0",
         allowfullscreen: true
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "col-lg-4"
+        className: "col-lg-4"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "media contact-info"
+        className: "media contact-info"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "contact-info__icon"
+        className: "contact-info__icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        "class": "ti-home"
+        className: "ti-home"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "media-body"
+        className: "media-body"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "The Legacy, 3rd Floor, 35A & 35B, 25A, Shakespeare Sarani,"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mullick Bazar, Park Street area, Kolkata, West Bengal 700017"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "media contact-info"
+        className: "media contact-info"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "contact-info__icon"
+        className: "contact-info__icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        "class": "ti-tablet"
+        className: "ti-tablet"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "media-body"
+        className: "media-body"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "076040 16858"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon to Fri 9am to 6pm"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "media contact-info"
+        className: "media contact-info"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "contact-info__icon"
+        className: "contact-info__icon"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        "class": "ti-email"
+        className: "ti-email"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "media-body"
+        className: "media-body"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "marketing@wseventures.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Send us your query anytime!"))))))));
     }
   }]);

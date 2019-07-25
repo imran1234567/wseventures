@@ -14,7 +14,7 @@ export default class Header extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-12">
-                                <nav class="navbar navbar-expand-lg navbar-light">
+                                <nav className="navbar navbar-expand-lg navbar-light">
                                     <Link className="navbar-brand" to="/"> <img src="Images/logo.png" alt="logo" className="logo"></img></Link>
                                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
