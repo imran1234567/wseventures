@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import About, { Director } from '../Pages/Director';
 import Contact from '../Pages/Contact'; 
 import Home from '../Pages/Home';
+import Philosophy from '../Pages/Philosophy';
 
 export default class Header extends Component {
 
@@ -31,6 +32,9 @@ export default class Header extends Component {
                                                 <Link className="nav-link" to="/director-desk">Director Desk</Link>
                                             </li>
                                             <li className="nav-item">
+                                                <Link className="nav-link" to="/philosophy">Our Philosophy</Link>
+                                            </li>
+                                            <li className="nav-item">
                                                 <Link className="nav-link" to="/contact">Contact</Link>
                                             </li>
                                             <li className="nav-item">
@@ -46,6 +50,7 @@ export default class Header extends Component {
                 <Route exact path='/' component={Home}/>
                 <Route exact path='/director-desk' component={Director}/>
                 <Route exact path='/contact' component={Contact}/>
+                <Route exact path='/philosophy' component={Philosophy} />
             </Router>
             
         )

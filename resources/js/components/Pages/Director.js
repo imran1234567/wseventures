@@ -4,7 +4,7 @@ export class Director extends Component {
     render() {
         return (
             <section className="about_part">
-                <div className="container-fluid">
+                <div className="container   ">
                     <div className="row align-items-center">
                         <div className="col-lg-3">
                             <div className="about_img">
@@ -13,7 +13,7 @@ export class Director extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="offset-lg-1 col-lg-8">
+                        <div className="col-lg-9">
                             <div className="about_text">
                                 <h5>From The Deirector Desk</h5>
                                 <h2>Making and Journey Of Wse Ventures</h2>

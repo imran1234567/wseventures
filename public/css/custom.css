@@ -22,6 +22,17 @@ body{
     font-size: large;
   }
   
+
+  .new-list{
+    list-style-type: disc;
+    font-weight: bold;
+    margin: 15px;
+    line-height: 3em;
+  }
+
+  .font-18{
+    font-size: 18px;
+  }
   
   
   .custom-footer{

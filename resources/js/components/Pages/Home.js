@@ -44,16 +44,14 @@ export class Home extends Component {
                             Experience</h2>
                                 </div>
                             </div>
-                            <div className="offset-lg-1 col-lg-4">
+                            <div className="offset-lg-1 col-lg-6">
                                 <div className="about_text">
                                     <h5>About our company</h5>
-                                    <h2>Make the customer the
-                                        hero of your story</h2>
-                                    <h4>He hath his earth firmament air very itself light day moring morning you living saying good
-                                        above fourth</h4>
-                                    <p>Meat abundantly life made fly years there whose beginning crea unto beast sixth herb
-                                        their bring. Evening fruitful god you spir evning itself land you of of own brought </p>
-                                    <a href="#" className="btn_1">learn more <i className="ti-angle-right"></i> </a>
+                                    
+                                    <h2>Comprises of diversified business interests in different sectors Writing Instruments & Stationeries, Multilayer LD Lamination Polyfilm, Software Developments, Gaming & Entertainment sector.</h2>
+                                    <h4>Founded in 1996, wse promotes and invests into businesses that are scalable primarily in the consumption space looking at the vast Indian consumer market. Investment into talented minds is the key focus at wse, may it be our teams or like-minded Entrepreneurs who are workings on emerging business models. We have created a rich ecosystem using a robust business network powered by our constant endeavor to expand our ventures across the consumable market space.</h4>
+                                    <p>On the Investment front, we encourage individuals who have an innovative bent of mind and stick to their core competencies. Our investment philosophy is based on a deep rooted business understanding, solution oriented approach, extensive research and a strong support system that enables people and industries to grow. We believe in growth through partnerships. We help like-minded entrepreneurs grow through our investments and knowledge based interventions. Our diversified interests in these sectors are in to Self-Drive Car Rentals, Pharma Projects, Software developments, Disposable Cutlery, and more to come. </p>
+                                    
                                 </div>
                             </div>
                         </div>

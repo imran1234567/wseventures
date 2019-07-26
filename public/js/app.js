@@ -65716,6 +65716,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Pages_Director__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Pages/Director */ "./resources/js/components/Pages/Director.js");
 /* harmony import */ var _Pages_Contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Pages/Contact */ "./resources/js/components/Pages/Contact.js");
 /* harmony import */ var _Pages_Home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Pages/Home */ "./resources/js/components/Pages/Home.js");
+/* harmony import */ var _Pages_Philosophy__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Pages/Philosophy */ "./resources/js/components/Pages/Philosophy.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -65733,6 +65734,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -65800,6 +65802,11 @@ function (_Component) {
         className: "nav-item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "nav-link",
+        to: "/philosophy"
+      }, "Our Philosophy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        className: "nav-link",
         to: "/contact"
       }, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "nav-item"
@@ -65818,6 +65825,10 @@ function (_Component) {
         exact: true,
         path: "/contact",
         component: _Pages_Contact__WEBPACK_IMPORTED_MODULE_3__["default"]
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+        exact: true,
+        path: "/philosophy",
+        component: _Pages_Philosophy__WEBPACK_IMPORTED_MODULE_5__["default"]
       }));
     }
   }]);
@@ -65982,7 +65993,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "about_part"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container-fluid"
+        className: "container   "
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row align-items-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -65995,7 +66006,7 @@ function (_Component) {
         src: "Images/Maam-1.jpg",
         alt: "demo"
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "offset-lg-1 col-lg-8"
+        className: "col-lg-9"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "about_text"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "From The Deirector Desk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Making and Journey Of Wse Ventures"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Since the inception of WSE group in 1996, the company has witnessed an epic growth towards sustainable excellence. All admiration for which goes to its diligently handpicked team members, who share the common vision of \u201CTogether We Grow\u201D and strive to inspire each other towards a rewarding winning journey. At WSE, challenges are the driving force for success. Overcoming every obstacle in our way we set new milestones for everyone. Each barrier crossed brings a plethora of untapped opportunities with itself, for which, the team members at WSE are always geared up. Trying newer avenues and reaching greater heights with each passing event has been the strength of WSE. Currently, WSE comprises diversified business interests in different sectors including Writing Instruments & Stationeries, Multilayer LD Lamination Polyfilm, Software Developments, Gaming & Entertainment sector. We strongly believe and have faith in people who can think out of the box and stick to their core competencies. The strong support system offered by WSE enables people and industries to grow through partnerships for the benefit of the entire team. We at WSE are always keen on sharing our success mantra experiences with each other and like-minded people who put faith upon us. WSE group is a one-stop solution for the current untapped human resource of the world, who are looking for opportunities to showcase their talent and unleash their potential. We personally support such people and enterprises with a great reservoir of knowledge gained through years of experience in the corporate world. With such strong basics, the company\u2019s medium & long-term growth story is very well intact and we are always looking ahead for a brighter future to raise the bars of corporate brilliance. Growth has been slow but steady and we are extremely proud of our TEAM who make us what we are today. Thank you to the entire Team from the core of my heart on their contribution, without them this journey would not have been possible so far."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -66142,15 +66153,10 @@ function (_Component) {
         className: "img_2",
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "25 Years Working ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Experience"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "offset-lg-1 col-lg-4"
+        className: "offset-lg-1 col-lg-6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "about_text"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "About our company"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Make the customer the hero of your story"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "He hath his earth firmament air very itself light day moring morning you living saying good above fourth"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Meat abundantly life made fly years there whose beginning crea unto beast sixth herb their bring. Evening fruitful god you spir evning itself land you of of own brought "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "#",
-        className: "btn_1"
-      }, "learn more ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        className: "ti-angle-right"
-      }), " "))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "About our company"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Comprises of diversified business interests in different sectors Writing Instruments & Stationeries, Multilayer LD Lamination Polyfilm, Software Developments, Gaming & Entertainment sector."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Founded in 1996, wse promotes and invests into businesses that are scalable primarily in the consumption space looking at the vast Indian consumer market. Investment into talented minds is the key focus at wse, may it be our teams or like-minded Entrepreneurs who are workings on emerging business models. We have created a rich ecosystem using a robust business network powered by our constant endeavor to expand our ventures across the consumable market space."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "On the Investment front, we encourage individuals who have an innovative bent of mind and stick to their core competencies. Our investment philosophy is based on a deep rooted business understanding, solution oriented approach, extensive research and a strong support system that enables people and industries to grow. We believe in growth through partnerships. We help like-minded entrepreneurs grow through our investments and knowledge based interventions. Our diversified interests in these sectors are in to Self-Drive Car Rentals, Pharma Projects, Software developments, Disposable Cutlery, and more to come. "))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "hero-app-7 custom-animation"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "Images/animate_icon/icon_7.png",
@@ -66282,6 +66288,89 @@ function (_Component) {
   return Home;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 /* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./resources/js/components/Pages/Philosophy.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/Pages/Philosophy.js ***!
+  \*****************************************************/
+/*! exports provided: Philosophy, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Philosophy", function() { return Philosophy; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+var Philosophy =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Philosophy, _Component);
+
+  function Philosophy() {
+    _classCallCheck(this, Philosophy);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Philosophy).apply(this, arguments));
+  }
+
+  _createClass(Philosophy, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "about_part"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container-fluid"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row align-items-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-md-12 text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "Images/wse-logo-1.png"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-md-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "[Where Serach Ends]"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "font-18"
+      }, "At WSE Ventures we strive to create an ecosystem of growth, knowledge sharing and robust revenue generation for our own businesses and other investment portfolio companies. Our business model is largely revolves around a large and growing Indian consumption space."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Thus, we have formulated a business strategy to add value to the society both in terms of quality as well as quantity through the verticals of:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "new-list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Writing Instruments & Stationeries"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Multilayer LD Lamination Polyfilm"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Disposable Cutlery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Self-Drive Car Rentals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Pharma Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Software Developments"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gaming & Entertainment")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Similar philosophy drives our investment portfolio where we deal with entrepreneurs with a drive and sense of scale. We encourage individuals with innovative ideas with potential to transform respective industry."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "together"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "[ToGether We Grow]")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "font-18"
+      }, "Together We Grow \u2013 WSE operates as a partner for evangelists, industry thinkers and innovators with an intention of adding value to the global economy as a whole. Together we help our customers, partners, associates and vendors grow through a symbiotic growth model powered by trust and hard work."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "together"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "[Salient Features of WSE Ventures]")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "new-list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "We are always ready to take time out and help individuals with innovative minds and help them drive towards success."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Our interaction with aspiring entrepreneurs is always result and goal driven."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "We devise practical strategies, clearly defined goals and create a road map."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Our strategies are incredibly simple. We are flexible on investment size and transparent in future financing.")))))));
+    }
+  }]);
+
+  return Philosophy;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+/* harmony default export */ __webpack_exports__["default"] = (Philosophy);
 
 /***/ }),
 
