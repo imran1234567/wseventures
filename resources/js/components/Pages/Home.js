@@ -21,7 +21,7 @@ export class Home extends Component {
                             </div>
                             <div className="col-xl-6 col-md-6">
                                 <div className="banner_bg">
-                                    <img src="Images/banner_img.png" alt="banner"></img>
+                                   
                                 </div>
                             </div>
                             <div className="col-xl-12 col-md-12 text-center gif">

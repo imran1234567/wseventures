@@ -2761,7 +2761,7 @@ ul {
   content: "";
   left: 0;
   bottom: 0;
-  background: url("../Images/banner_overlay_2.png") top right no-repeat;
+  /* background: url("../Images/banner_overlay_2.png") top right no-repeat; */
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -2801,7 +2801,7 @@ ul {
   content: "";
   left: 0;
   bottom: 0;
-  background: url("../Images/banner_overlay_1.png") bottom left no-repeat;
+  /* background: url("../Images/banner_overlay_1.png") bottom left no-repeat; */
   width: 100%;
   height: 100%;
   z-index: -1;

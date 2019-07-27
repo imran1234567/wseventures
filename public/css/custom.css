@@ -32,6 +32,12 @@ body{
     position: absolute;
   }
 
+  .banner_part{
+    background-image:url('/Images/banner3.jpg');
+    background-size: cover;
+  }
+
+
   .new-list{
     list-style-type: disc;
     font-weight: bold;
