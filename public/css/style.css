@@ -2832,7 +2832,7 @@ ul {
   /* line 2, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_banner.scss */
   .banner_part {
     height: 700px;
-    background-image: none;
+    background-image: url('/Images/banner3.jpg');
     background-color: #fff;
   }
 }
@@ -2850,7 +2850,7 @@ ul {
   /* line 2, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_banner.scss */
   .banner_part {
     height: 700px;
-    background-image: none;
+    background-image: url('/Images/banner3.jpg');
     background-color: #fff;
   }
 }

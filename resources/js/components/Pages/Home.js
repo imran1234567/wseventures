@@ -15,7 +15,6 @@ export class Home extends Component {
                                     <div className="banner_text_iner text-center">
                                         <h2>Think <span>Creative Turn</span> </h2>
                                         <h3>Ideas Into Life</h3>
-                                        
                                     </div>
                                 </div>
                             </div>
