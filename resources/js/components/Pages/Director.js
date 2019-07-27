@@ -40,9 +40,7 @@ Thank you to the entire Team from the core of my heart on their contribution, wi
                         </div>
                     </div>
                 </div>
-                <div className="hero-app-7 custom-animation"><img src="Images/animate_icon/icon_7.png" alt=""></img></div>
-                <div className="hero-app-8 custom-animation2"><img src="Images/animate_icon/icon_4.png" alt=""></img></div>
-                <div className="hero-app-6 custom-animation3"><img src="Images/animate_icon/icon_5.png" alt=""></img></div>
+                
             </section>
         )
     }
