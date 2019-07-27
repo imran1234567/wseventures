@@ -31,10 +31,7 @@ export class Home extends Component {
                         </div>
                         
                     </div>
-                    <div className="hero-app-1 custom-animation"><img src="Images/animate_icon/icon_1.png" alt=""></img></div>
-                    <div className="hero-app-5 custom-animation2"><img src="Images/animate_icon/icon_3.png" alt=""></img></div>
-                    <div className="hero-app-7 custom-animation3"><img src="Images/animate_icon/icon_2.png" alt=""></img></div>
-                    <div className="hero-app-8 custom-animation"><img src="Images/animate_icon/icon_4.png" alt=""></img></div>
+                    
                 </section>
                 {/* About Part */}
 
@@ -61,9 +58,7 @@ export class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="hero-app-7 custom-animation"><img src="Images/animate_icon/icon_7.png" alt=""></img></div>
-                    <div className="hero-app-8 custom-animation2"><img src="Images/animate_icon/icon_4.png" alt=""></img></div>
-                    <div className="hero-app-6 custom-animation3"><img src="Images/animate_icon/icon_5.png" alt=""></img></div>
+                   
                 </section>
 
                 <section className="our_latest_work section_padding">
