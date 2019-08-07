@@ -35,7 +35,7 @@ Growth has been slow but steady and we are extremely proud of our TEAM who make 
 Thank you to the entire Team from the core of my heart on their contribution, without them this journey would not have been possible so far.
 
  </p>
-                                <a href="#" className="btn_1">Linkdin <i class="fab fa-linkedin"></i></a>
+                                <a href="#" className="btn_1">Linkdin <i className="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>

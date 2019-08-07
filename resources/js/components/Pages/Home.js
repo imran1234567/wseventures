@@ -13,8 +13,8 @@ export class Home extends Component {
                             <div className="col-xl-6 col-md-6">
                                 <div className="banner_text">
                                     <div className="banner_text_iner text-center">
-                                        <h2>Think <span>Creative Turn</span> </h2>
-                                        <h3>Ideas Into Life</h3>
+                                        <h2>Together<span>We</span> </h2>
+                                        <h3>Grow</h3>
                                     </div>
                                 </div>
                             </div>

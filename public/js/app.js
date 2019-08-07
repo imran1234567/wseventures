@@ -60572,7 +60572,7 @@ function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -66087,7 +66087,7 @@ function (_Component) {
         className: "banner_text"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "banner_text_iner text-center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Think ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Creative Turn"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Ideas Into Life")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Together", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "We"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grow")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-xl-6 col-md-6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "banner_bg"

@@ -20,7 +20,7 @@ export class Contact extends Component {
                     <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14739.627464124726!2d88.3551746!3d22.5451613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccdadd4a5708d03a!2sWSE+Group!5e0!3m2!1sen!2sin!4v1563950583675!5m2!1sen!2sin" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14739.627464124726!2d88.3551746!3d22.5451613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccdadd4a5708d03a!2sWSE+Group!5e0!3m2!1sen!2sin!4v1563950583675!5m2!1sen!2sin" width="600" height="450" frameBorder="0" allowFullScreen></iframe>
                         </div>
                         <div className="col-lg-4">
                         <div className="media contact-info">
